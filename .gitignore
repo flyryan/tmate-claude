@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+# Electron build output
+out/
+release/
+
+# IDE/Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+.env
+.env.*
+*.sublime-workspace
+*.sublime-project
+
+# Logs and debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+.env
+.env.local
+.env.*.local
+config.local.json
+*.local.yml
+*.local.yaml
+
+# API Keys and Secrets
+*.pem
+*.key
+*.cert
+credentials.json
+*_credentials.json
+
+# Development tools
+.eslintcache
+.stylelintcache
+.prettier*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
