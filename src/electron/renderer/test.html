@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TMate Claude Test</title>
+    <style>
+      body {
+        background: #1a1a1a;
+        color: white;
+        font-family: system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TMate Claude Test Page</h1>
+    <p>If you can see this, the window is loading correctly.</p>
+    <script>
+      console.log('Test page loaded');
+      if (window.electronAPI) {
+        console.log('Electron API available');
+      } else {
+        console.log('Electron API not found');
+      }
+    </script>
+  </body>
+</html>
